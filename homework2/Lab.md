@@ -11,29 +11,29 @@
 
 ## 学号:           2020302111030 
 
-#### 实验目的：
+#### Purpose:
 
-了解软件Wireshark，学习并使用Wireshark来分析数据包。
+Get to know the software Wireshark, learn and use Wireshark to analyze packets.
 
-#### 实验内容1
+#### Experiment content 1
 
-在step7中的协议栏下我们可以找到TCP、HTTP、ARP等协议。
+Under the protocol column in step7, we can find protocols such as TCP, HTTP, and ARP.
 
-#### 实验内容2
+#### Experimental content 2
 
 ![](http.png)
 
-从图片中我们可以看出HTTP GET message在20:39:33.030783发送，HTTP OK reply在20:39:33.084622收到，耗时53.839ms
+From the picture we can see that the HTTP GET message was sent at 20:39:33.030783, and the HTTP OK reply was received at 20:39:33.084622, which took 53.839ms
 
-#### 实验内容3
+#### Experimental content 3
 
-从上幅图片中我们可以看到HTTP GET message从10.128.51.227发送到202.114.64.41；HTTP OK reply从202.114.64.41发送到10.128.51.227。
+From the above picture we can see that the HTTP GET message is sent from 10.128.51.227 to 202.114.64.41; the HTTP OK reply is sent from 202.114.64.41 to 10.128.51.227.
 
-所以cs.whu.edu.cn的网络地址为202.114.64.41，本地网络地址为10.128.51.227
+So the network address of cs.whu.edu.cn is 202.114.64.41, and the local network address is 10.128.51.227
 
-#### 实验内容4
+#### Experimental content 4
 
-HTTP GET message和HTTP OK reply的打印内容见wireshark_WLAN1EJWH1.pdf
+See wireshark_WLAN1EJWH1.pdf for the print content of HTTP GET message and HTTP OK reply
 
-#### 小结
-在这次实验中，了解、学习并练习了wireshark的使用。对数据包的传输有了更深刻的理解。
+#### Conclusion
+In this experiment, I understand, learn and practice the use of wireshark. Gain a deeper understanding of the transmission of packets.
